@@ -1,6 +1,8 @@
+# %%
 import great_expectations as gx
 from great_expectations import expectations as gxe
 
+# %%
 # Define the Data Source's parameters:
 # This path is relative to the `base_directory` of the Data Context.
 source_folder = "./data"
@@ -36,6 +38,7 @@ actions = [
 suite = gx.ExpectationSuite(name=suite_name)
 
 context = gx.get_context(mode="file", project_root_dir="./context")
+print(context)
 
 # Create the Data Source: first time only
 # If the Data Source already exists, you can skip this step.
@@ -91,7 +94,7 @@ context = gx.get_context(mode="file", project_root_dir="./context")
 # result = validation_definition.run()
 # print(result)
 
-
+# %%
 # Manually build the Data Docs
 context.build_data_docs(site_names=site_name)
 
@@ -101,3 +104,4 @@ result = checkpoint.run()
 
 # View the Data Docs
 context.open_data_docs()
+# %%
