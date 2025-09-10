@@ -102,5 +102,37 @@ fluent_datasources:
               regex: listings.csv$
               param_names: []
     base_directory: data
+  airbnb:
+    type: pandas_filesystem
+    id: 938cfab7-a55b-4bf1-ae20-171415a1bb1b
+    assets:
+      calendar:
+        type: csv
+        id: 3304e707-8a37-4a38-b8bd-6c51fdc3aedc
+        batch_definitions:
+          my_calendar_batch:
+            id: 5edba137-f4cf-4bcb-a33a-3afeef1c6408
+            partitioner:
+              regex: calendar.csv$
+              param_names: []
+      listings:
+        type: csv
+        id: 97451053-1f83-4d51-bddf-5a6bed8e18f0
+        batch_definitions:
+          my_listings_batch:
+            id: 52adcc2c-7f0c-41c3-aaf9-b81f58f614a9
+            partitioner:
+              regex: listings.csv$
+              param_names: []
+      reviews:
+        type: csv
+        id: 6c0392d7-b06a-4cee-825f-5850590f8e36
+        batch_definitions:
+          my_reviews_batch:
+            id: 7d2acb6d-5adc-489b-b2c3-8dd6c309c8a8
+            partitioner:
+              regex: reviews.csv$
+              param_names: []
+    base_directory: data
 analytics_enabled:
 data_context_id: 7e0ffc40-715a-4961-bc50-b6860553849d

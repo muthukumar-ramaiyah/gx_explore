@@ -1,0 +1,22 @@
+{
+  "data": {
+    "asset": {
+      "id": "6c0392d7-b06a-4cee-825f-5850590f8e36",
+      "name": "reviews"
+    },
+    "batch_definition": {
+      "id": "7d2acb6d-5adc-489b-b2c3-8dd6c309c8a8",
+      "name": "my_reviews_batch"
+    },
+    "datasource": {
+      "id": "938cfab7-a55b-4bf1-ae20-171415a1bb1b",
+      "name": "airbnb"
+    }
+  },
+  "id": "5be0dbe4-c09b-4ca2-971b-0f66fb5fadd7",
+  "name": "airbnb_reviews_vd",
+  "suite": {
+    "id": "1b48e7d7-12ec-4592-ba77-0bceb9cdb566",
+    "name": "reviews_suite"
+  }
+}

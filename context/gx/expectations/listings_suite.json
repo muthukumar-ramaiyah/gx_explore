@@ -1,0 +1,40 @@
+{
+  "expectations": [
+    {
+      "id": "bafccb27-d596-40c3-8cad-e743c02f3247",
+      "kwargs": {
+        "column": "listing_url",
+        "max_value": 3585,
+        "min_value": 1
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_unique_value_count_to_be_between"
+    },
+    {
+      "id": "200412e2-d7ff-4497-b177-c9713d40b433",
+      "kwargs": {
+        "column": "listing_url"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "b6086374-a193-43d8-8d84-1efb5fa3457b",
+      "kwargs": {
+        "column": "summary",
+        "mostly": 0.96
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    }
+  ],
+  "id": "b8bb4733-cda2-498f-8167-bf9b1203278b",
+  "meta": {
+    "great_expectations_version": "1.5.11"
+  },
+  "name": "listings_suite",
+  "notes": null
+}

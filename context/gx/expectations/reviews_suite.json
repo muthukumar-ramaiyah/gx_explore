@@ -1,0 +1,39 @@
+{
+  "expectations": [
+    {
+      "id": "04be6858-f6b5-4231-8dc2-2979bfad4f34",
+      "kwargs": {
+        "column": "listing_id",
+        "max_value": 2829,
+        "min_value": 1
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_unique_value_count_to_be_between"
+    },
+    {
+      "id": "13723c74-2e77-431b-829d-af91ee020dd3",
+      "kwargs": {
+        "column": "listing_id"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "7149d35a-1b47-43cb-a71f-f09132ffa362",
+      "kwargs": {
+        "column": "reviewer_name"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    }
+  ],
+  "id": "1b48e7d7-12ec-4592-ba77-0bceb9cdb566",
+  "meta": {
+    "great_expectations_version": "1.5.11"
+  },
+  "name": "reviews_suite",
+  "notes": null
+}

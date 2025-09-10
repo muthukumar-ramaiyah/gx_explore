@@ -1,0 +1,40 @@
+{
+  "expectations": [
+    {
+      "id": "a232b2a8-96bf-4535-a1b7-b79ba7796710",
+      "kwargs": {
+        "column": "listing_id",
+        "max_value": 3000,
+        "min_value": 1
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_unique_value_count_to_be_between"
+    },
+    {
+      "id": "339c96b9-5756-4075-81c2-3fd84c31b0c8",
+      "kwargs": {
+        "column": "listing_id"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "d675eb79-ff51-442f-87db-72f7a5ae5b36",
+      "kwargs": {
+        "column": "available",
+        "mostly": 1.0
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    }
+  ],
+  "id": "546f927f-13a5-4b9b-ad76-a27c997e19b3",
+  "meta": {
+    "great_expectations_version": "1.5.11"
+  },
+  "name": "calendar_suite",
+  "notes": null
+}

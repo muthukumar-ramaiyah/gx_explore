@@ -1,0 +1,22 @@
+{
+  "data": {
+    "asset": {
+      "id": "3304e707-8a37-4a38-b8bd-6c51fdc3aedc",
+      "name": "calendar"
+    },
+    "batch_definition": {
+      "id": "5edba137-f4cf-4bcb-a33a-3afeef1c6408",
+      "name": "my_calendar_batch"
+    },
+    "datasource": {
+      "id": "938cfab7-a55b-4bf1-ae20-171415a1bb1b",
+      "name": "airbnb"
+    }
+  },
+  "id": "fa775437-0871-46c2-89f7-8c88693183d6",
+  "name": "airbnb_calendar_vd",
+  "suite": {
+    "id": "546f927f-13a5-4b9b-ad76-a27c997e19b3",
+    "name": "calendar_suite"
+  }
+}

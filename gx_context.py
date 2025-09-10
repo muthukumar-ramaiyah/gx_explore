@@ -1,6 +1,7 @@
 # %%
 import great_expectations as gx
 from great_expectations import expectations as gxe
+print(gx.__version__)
 
 # %%
 # Define the Data Source's parameters:

@@ -1,0 +1,22 @@
+{
+  "data": {
+    "asset": {
+      "id": "97451053-1f83-4d51-bddf-5a6bed8e18f0",
+      "name": "listings"
+    },
+    "batch_definition": {
+      "id": "52adcc2c-7f0c-41c3-aaf9-b81f58f614a9",
+      "name": "my_listings_batch"
+    },
+    "datasource": {
+      "id": "938cfab7-a55b-4bf1-ae20-171415a1bb1b",
+      "name": "airbnb"
+    }
+  },
+  "id": "88e98cf8-21ac-4d67-9fe1-9d95bcab58c1",
+  "name": "airbnb_listings_vd",
+  "suite": {
+    "id": "b8bb4733-cda2-498f-8167-bf9b1203278b",
+    "name": "listings_suite"
+  }
+}
